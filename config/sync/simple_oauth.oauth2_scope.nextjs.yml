@@ -1,0 +1,22 @@
+uuid: 4142e954-718d-4387-8493-844d9e0e251f
+langcode: en
+status: true
+dependencies: {  }
+id: nextjs
+name: nextjs
+description: 'Scope for nextjs'
+grant_types:
+  authorization_code:
+    status: false
+    description: ''
+  client_credentials:
+    status: true
+    description: ''
+  refresh_token:
+    status: true
+    description: ''
+umbrella: false
+parent: _none
+granularity_id: role
+granularity_configuration:
+  role: authenticated
